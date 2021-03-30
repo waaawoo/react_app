@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// CSSの読み込み
+import './css/index.css'
+// // reactを使うファイルに必須の記述
+import React from 'react'
+import ReactDOM from 'react-dom'
+// import App from './App'
+import App from './Ap'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// // publicのindex.htmlのID「root」に挿入する
+// ReactDOM.render(<App />, document.getElementById('root'))
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
